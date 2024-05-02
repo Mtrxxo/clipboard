@@ -3,7 +3,7 @@ body{
 }
 
 header{
-    background-image: url(images/bg-header-desktop.png);
+    background-image: url(bg-header-desktop.png);
 }
 
 .logo{
@@ -99,7 +99,7 @@ h1,h2,h3,h4,h5{
 
 @media (max-width:991px){
     header{
-        background-image: url(images/bg-header-mobile.png);
+        background-image: url(bg-header-mobile.png);
     }
 
     .p-div{
