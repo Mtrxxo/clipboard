@@ -1,0 +1,120 @@
+body{
+    font-family: "Bai Jamjuree", sans-serif;
+}
+
+header{
+    background-image: url(images/bg-header-desktop.png);
+}
+
+.logo{
+    margin: 5rem 0 3rem;
+}
+
+.p-div{
+    margin: 2rem 20rem;
+}
+
+.ios{
+    background-color: hsl(171, 66%, 44%);
+    border: none;
+}
+
+.ios:hover,
+.ios:active{
+    background-color: hsl(171, 59%, 61%);
+}
+
+.andr{
+    background-color: hsl(233, 100%, 69%);
+    border: none;
+}
+
+.andr:hover,
+.andr:active{
+    background-color: hsl(233, 88%, 73%);
+}
+
+button{
+    margin: 3rem 0;
+}
+
+.button-div{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.info{
+    margin: 5rem 0;
+}
+
+.more{
+    margin: 5rem 0;
+}
+
+.logosss{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 5rem 0;
+}
+
+footer{
+    background-color: hsl(0, 0%, 90%);
+}
+
+.footer a{
+    display: block;
+    text-decoration: none;
+    color: hsl(210, 10%, 33%);
+    margin: 0.5rem 0;
+}
+
+footer a:hover{
+    color: hsl(171, 66%, 44%);
+}
+
+.footer-logo{
+    height: 100px;
+    width: 100px;
+    margin: 2rem 0;
+}
+
+.img-comp,
+.img-phone{
+    width: 600px;
+}
+
+.icon:hover{
+    cursor: pointer;
+}
+
+p{
+    color: hsl(201, 11%, 66%);
+}
+
+h1,h2,h3,h4,h5{
+    color: hsl(210, 10%, 33%);
+}
+
+@media (max-width:991px){
+    header{
+        background-image: url(images/bg-header-mobile.png);
+    }
+
+    .p-div{
+        margin: 2rem 1rem;
+    }
+
+    .logosss{
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-around;
+        gap: 4rem;
+    }
+
+    .img-comp,
+    .img-phone{
+        width: 355px;
+    }
+}
